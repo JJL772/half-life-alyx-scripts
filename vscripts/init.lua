@@ -198,7 +198,9 @@ function ExtendInstance( instance, luaClass )
 end
 
 function include_script(script)
-	DoIncludeScript(script, _G)
+	if DoIncludeScript(script, _G) then
+		print("...Included script "..script)
+	end
 end
 
 -- ADD USER SCRIPTS HERE
