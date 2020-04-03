@@ -204,5 +204,6 @@ end
 -- ADD USER SCRIPTS HERE
 Msg("Loading user scripts...")
 include_script("user/jumpfix.lua")
+include_script("user/flashlight.lua")
 
 Msg( "...done\n" )
