@@ -207,5 +207,6 @@ end
 Msg("Loading user scripts...")
 include_script("user/jumpfix.lua")
 include_script("user/flashlight.lua")
+include_script("user/playermodels.lua")
 
 Msg( "...done\n" )
