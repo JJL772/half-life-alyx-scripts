@@ -1,6 +1,6 @@
 ## Half-Life: Alyx Scripts
 
-These are various scripts for user with Half-Life: Alyx. 
+These are various scripts for use with Half-Life: Alyx. 
 
 ### Installation
 
