@@ -209,5 +209,6 @@ include_script("user/jumpfix.lua")
 include_script("user/flashlight.lua")
 include_script("user/playermodels.lua")
 include_script("user/precache.lua")
+include_script("user/docdump.lua")
 
 Msg( "...done\n" )
