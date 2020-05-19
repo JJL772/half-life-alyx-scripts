@@ -20,3 +20,14 @@ All scripts in the user/ directory are custom scripts by me. If you wish to inst
 
 3. That's all!
 
+### Running
+
+Some of these script won't work unless you run the game under developer mode.
+
+To do this, follow these instructions:
+
+1. Right click on Half-Life Alyx in the steam library
+2. Click Properties
+3. Click "Set Launch Options"
+4. Add `-dev` in that box
+5. Click OK.
