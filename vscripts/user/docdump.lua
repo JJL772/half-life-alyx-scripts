@@ -17,11 +17,11 @@ local function doc_dump(name, tbl)
 		end 
 	end 
 	
-	if tbl.EDesc ~= nil then
+	if tbl.EDesc ~= nil and tbl.EDesc["all"] ~= nil then
 		io.write("\n## Enums\n")
 		io.output(file)
 		io.write("```\n")
-		for k,v in pairs(tbl) do
+		for k,v in pairs(tbl.EDesc["all"]) do
 			if type(v) == "number" then 
 				io.write(k.."\t"..tostring(v).."\n\n")
 			end

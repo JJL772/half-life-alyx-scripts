@@ -191,6 +191,7 @@ function EntityClasses.CExampleEntity:Spawn(spawnKeys)
     getbase(self):Spawn(spawnKeys)
     EnableDisable_Spawn(spawnKeys)
     self.value = spawnKeys:GetValue(startvalue)
+    print("Test ent class has been spawned")
 end
 
 
