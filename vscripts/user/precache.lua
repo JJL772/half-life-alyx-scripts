@@ -33,7 +33,7 @@ function PrecacheResources()
 		origin = Vector(0,0,0),
 		vscripts = "ent_scripts/precache.lua"
 	}
-	ent = SpawnEntityFromTableSynchronous("prop_physics", ent_table)
+	ent = SpawnEntityFromTableSynchronous("prop_dynamic", ent_table)
 	-- Just kill it right after lol
 	ent:Kill()
 end 
