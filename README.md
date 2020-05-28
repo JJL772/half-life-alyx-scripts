@@ -1,14 +1,16 @@
 ## Half-Life: Alyx Scripts
 
-These are various scripts for use with Half-Life: Alyx. 
+**NOTE: THIS REPO IS LARGELY OBSOLETE SINCE VALVE SHIPS SCRIPTS WITH THE GAME. IF YOU WANT A JUMP FIX OR FLASHLIGHT SCRIPT FOR NON-VR GAMEPLAY, YOU CAN STILL INSTALL THIS**
 
 ### Installation
 
 1. Create the directory game/hlvr/scripts
 
-2. Copy the folder vscripts into this new folder
+2. Copy the folder vscripts into this new folder. (It should look like this: game/hlvr/scripts/vscripts)
 
-3. Load up the game, and you're done!
+3. Add a `script_reload_code init-scripts.lua` to hlvr/cfg/skill.cfg or some or CFG that is automatically loaded. 
+
+4. Load up the game, and you're done!
 
 ### Installing user scripts
 
